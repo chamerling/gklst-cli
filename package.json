@@ -1,0 +1,35 @@
+{
+  "name": "gklst-cli",
+  "version": "0.0.1",
+  "author": "Christophe Hamerling <christophe.hamerling@ow2.org>",
+  "homepage": "http://github.com/chamerling/gklst-cli",
+  "keywords": [
+    "node"
+  ],
+  "maintainers": [{
+    "name": "Christophe Hamerling",
+    "email": "christophe.hamerling@ow2.org"
+  }],
+  "contributors": [],
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://mths.be/mit"
+  }],
+  "bugs": {
+    "url": "https://github.com/chamerling/gklst-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/chamerling/gklst-cli.git"
+  },
+  "engines": {
+    "node": ">0.6.x",
+    "npm": ">1.0.x"
+  },
+  "dependencies": {
+    "commander": "latest",
+    "colors": "latest",
+    "geeklist" : "git://github.com/chamerling/node-geeklist.git"
+  },
+  "bin": "./bin/gklst"
+}

@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+/**
+ * Copyright(c) 2013 Christophe Hamerling <christophe.hamerling@ow2.org>
+ * MIT Licensed
+ */
+
+var cli  = require('../lib/gklst').cli();
